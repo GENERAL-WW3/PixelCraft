@@ -1,0 +1,412 @@
+.main{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 30px; 
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 60px;
+    /* z-index: 1000; */
+    
+}
+.content{
+    display: block;
+    padding-top: 60px;
+    text-align: left;
+}
+/* .main nav a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    padding: 10px;
+} */
+.A1 {
+    font-size: 17px;
+    background: transparent;
+    border: none;
+    padding: 1em 1.5em;
+    color: #ffedd3;
+    text-transform: uppercase;
+    position: relative;
+    transition: 0.5s ease;
+    cursor: pointer;
+    text-decoration: none;
+
+  }
+  
+  .A1::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 3px;
+    width: 0;
+    background-color: #662fbc;
+    background-image: linear-gradient(123deg, #662fbc 0%, #59b5ff 100%);
+    transition: 0.5s ease;
+  }
+  
+  .A1:hover {
+    color: #1e1e2b;
+    transition-delay: 0.5s;
+  }
+  
+  .A1:hover::before {
+    width: 100%;
+  }
+  
+  .A1::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 0;
+    width: 100%;
+    background-color: #662fbc;
+    background-image: linear-gradient(123deg, #662fbc 0%, #59b5ff 100%);
+    transition: 0.4s ease;
+    z-index: -1;
+  }
+  
+  .A1:hover::after {
+    height: 100%;
+    transition-delay: 0.4s;
+    color: aliceblue;
+  }
+  
+/* ------------------------------------------------[[A2 Button Link]]----------------------------------------------------------- */
+
+.A2 {
+    font-size: 17px;
+    background: transparent;
+    border: none;
+    padding: 1em 1.5em;
+    color: #ffedd3;
+    text-transform: uppercase;
+    position: relative;
+    transition: 0.5s ease;
+    cursor: pointer;
+    text-decoration: none;
+  }
+  
+  .A2::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 2px;
+    width: 0;
+    background-color: #662fbc;
+    background-image: linear-gradient(123deg, #662fbc 0%, #59b5ff 100%);
+    transition: 0.5s ease;
+  }
+  
+  .A2:hover {
+    color: #1e1e2b;
+    transition-delay: 0.5s;
+  }
+  
+  .A2:hover::before {
+    width: 100%;
+  }
+  
+  .A2::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 0;
+    width: 100%;
+    background-color: #662fbc;
+    background-image: linear-gradient(123deg, #662fbc 0%, #59b5ff 100%);
+    transition: 0.4s ease;
+    z-index: -1;
+  }
+  
+  .A2:hover::after {
+    height: 100%;
+    transition-delay: 0.4s;
+    color: aliceblue;
+  }
+
+/* ------------------------------------------------[[A3 Button Link]]----------------------------------------------------------- */
+
+.A3 {
+    font-size: 17px;
+    background: transparent;
+    border: none;
+    padding: 1em 1.5em;
+    color: #ffedd3;
+    text-transform: uppercase;
+    position: relative;
+    transition: 0.5s ease;
+    cursor: pointer;
+    text-decoration: none;
+  }
+  
+  .A3::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 2px;
+    width: 0;
+    background-color: #662fbc;
+    background-image: linear-gradient(123deg, #662fbc 0%, #59b5ff 100%);
+    transition: 0.5s ease;
+  }
+  
+  .A3:hover {
+    color: #1e1e2b;
+    transition-delay: 0.5s;
+  }
+  
+  .A3:hover::before {
+    width: 100%;
+  }
+  
+  .A3::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 0;
+    width: 100%;
+    background-color: #662fbc;
+    background-image: linear-gradient(123deg, #662fbc 0%, #59b5ff 100%);
+    transition: 0.4s ease;
+    z-index: -1;
+  }
+  
+  .A3:hover::after {
+    height: 100%;
+    transition-delay: 0.4s;
+    color: aliceblue;
+  }
+
+/* ------------------------------------------------[[A4 Button Link]]----------------------------------------------------------- */
+
+.A4 {
+    font-size: 17px;
+    background: transparent;
+    border: none;
+    padding: 1em 1.5em;
+    color: #ffedd3;
+    text-transform: uppercase;
+    position: relative;
+    transition: 0.5s ease;
+    cursor: pointer;
+    text-decoration: none;
+  }
+  
+  .A4::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 2px;
+    width: 0;
+    background-color: #662fbc;
+    background-image: linear-gradient(123deg, #662fbc 0%, #59b5ff 100%);
+    transition: 0.5s ease;
+  }
+  
+  .A4:hover {
+    color: #1e1e2b;
+    transition-delay: 0.5s;
+  }
+  
+  .A4:hover::before {
+    width: 100%;
+  }
+  
+  .A4::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 0;
+    width: 100%;
+    background-color: #662fbc;
+    background-image: linear-gradient(123deg, #662fbc 0%, #59b5ff 100%);
+    transition: 0.4s ease;
+    z-index: -1;
+  }
+  
+  .A4:hover::after {
+    height: 100%;
+    transition-delay: 0.4s;
+    color: aliceblue;
+  }
+
+/* ------------------------------------------------[[A5 Button Link]]----------------------------------------------------------- */
+
+/* === removing default button style ===*/
+.A5 {
+    margin: 0;
+    height: auto;
+    background: transparent;
+    padding: 0;
+    border: none;
+    cursor: pointer;
+    margin: 0px 0px 0px 20px;
+    padding: 2px 0px 0px 0px;
+    /* text-decoration: none; */
+  }
+  
+  /* button styling */
+  .A5 {
+    --border-right: 6px;
+    --text-stroke-color: rgba(255,255,255,0.6);
+    --animation-color: #00bbff;
+    --fs-size: 2em;
+    letter-spacing: 3px;
+    text-decoration: none;
+    font-size: var(--fs-size);
+    font-family: "Arial";
+    position: relative;
+    text-transform: uppercase;
+    color: transparent;
+    -webkit-text-stroke: 1px var(--text-stroke-color);
+  }
+  /* this is the text, when you hover on button */
+  .hover-text {
+    position: absolute;
+    box-sizing: border-box;
+    content: attr(data-text);
+    color: var(--animation-color);
+    width: 0%;
+    inset: 0;
+    border-right: var(--border-right) solid var(--animation-color);
+    overflow: hidden;
+    transition: 0.5s;
+    -webkit-text-stroke: 1px var(--animation-color);
+  }
+  /* hover */
+  .A5:hover .hover-text {
+    width: 100%;
+    filter: drop-shadow(0 0 23px var(--animation-color))
+  }
+  /* ---------------------------------------------------------------------------------------------- */
+  .pyramid-loader {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 30px 0px 0px 0px; 
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 60px;
+    width: 300px;
+    transform-style: preserve-3d;
+    transform: rotateX(-20deg);
+    /* margin: 0px -50px 0px 0px; */
+  }
+
+.wrapper {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  transform-style: preserve-3d;
+  animation: spin 4s linear infinite;
+}
+
+@keyframes spin {
+  100% {
+    transform: rotateY(360deg);
+  }
+}
+
+.pyramid-loader .wrapper .side {
+  width: 70px;
+  height: 70px;
+  /* you can choose any gradient or color you want */
+  /* background: radial-gradient( #2F2585 10%, #F028FD 70%, #2BDEAC 120%); */
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  transform-origin: center top;
+  clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+}
+
+.pyramid-loader .wrapper .side1 {
+  transform: rotateZ(-30deg) rotateY(90deg);
+  background: linear-gradient(to bottom right, #1afbf0, #da00ff);
+}
+
+.pyramid-loader .wrapper .side2 {
+  transform: rotateZ(30deg) rotateY(90deg);
+  background: linear-gradient(to bottom right, #1afbf0, #da00ff);
+}
+
+.pyramid-loader .wrapper .side3 {
+  transform: rotateX(30deg);
+  background: linear-gradient(to bottom right, #1afbf0, #da00ff);
+}
+
+.pyramid-loader .wrapper .side4 {
+  transform: rotateX(-30deg);
+  background: linear-gradient(to bottom right, #1afbf0, #da00ff);
+}
+
+.pyramid-loader .wrapper .shadow {
+  width: 60px;
+  height: 60px;
+  background: #8b5ad5;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  transform: rotateX(90deg) translateZ(-40px);
+  filter: blur(12px);
+}
+/* --------------------------------------------------------------------------------------------------------------- */
+/* From Uiverse.io by Yaya12085 */ 
+.button {
+  width: fit-content;
+  padding: .75em 1rem;
+  cursor: pointer;
+  gap: 0.4rem;
+  font-weight: bold;
+  border-radius: 30px;
+  text-shadow: 2px 2px 3px rgb(136 0 136 / 50%);
+  background: linear-gradient(15deg, #880088, #aa2068, #cc3f47, #de6f3d, #f09f33, #de6f3d, #cc3f47, #aa2068, #880088) no-repeat;
+  background-size: 300%;
+  color: #fff;
+  border: none;
+  background-position: left center;
+  box-shadow: 0 30px 10px -20px rgba(0,0,0,.2);
+  transition: background .3s ease;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: -20px; 
+  position: fixed;
+  top: 45px;
+  left: 46%;
+  right: 0;
+  text-decoration: none;
+}
+
+.button:hover {
+  background-size: 320%;
+  background-position: right center;
+}
+
+.button:hover svg {
+  fill: #fff;
+}
+
+.button svg {
+  width: 23px;
+  fill: #f09f33;
+  transition: .3s ease;
+}
+

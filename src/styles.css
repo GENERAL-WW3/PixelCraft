@@ -1,1 +1,16 @@
-/* You can add global styles to this file, and also import other style files */
+body{
+    background-image: url('deer-forest-outdoor-art.jpg');
+    background-size: 100%;
+    /* background-repeat: no-repeat;
+    background-position: center; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+@font-face {
+    font-family: font1;
+    src: url(../Font/XRXV3I6Li01BKofINeaB.woff2);
+}
+*{
+    font-family: font1;
+}
