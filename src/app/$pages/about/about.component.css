@@ -67,6 +67,8 @@
     padding: 0 1.25rem;
     transition: transform 300ms ease;
     z-index: 5;
+    margin: -20px 0px 0px 0px ;
+
   }
   
   .notification:hover .notibody {
@@ -110,6 +112,24 @@
     font-size: 0.9rem;
     width: 75%;
   }
+  .typewriter-container {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1rem;
+    white-space: pre-wrap; /* Preserves whitespace formatting */
+    overflow: hidden; /* Hides overflow text */
+    width: fit-content;
+    animation: blinkCursor 0.75s step-end infinite;
+  }
+  
+  @keyframes blinkCursor {
+    from, to {
+      border-color: transparent;
+    }
+    50% {
+      border-color: #32a6ff;
+    }
+  }
+
   /* -------------------------------------------------------------------------------------------------------- */
 .container {
   width: 150px;
@@ -120,6 +140,8 @@
   padding: 2px 1px;
   overflow: hidden;
   font-size: 0;
+}
+.window{
   opacity: 0;
   transform: translateY(20px);
   animation: fadeInUp 1s ease-in-out forwards;
