@@ -69,6 +69,7 @@
     z-index: -1;
   }
   
+  
   .A1:hover::after {
     height: 100%;
     transition-delay: 0.4s;
